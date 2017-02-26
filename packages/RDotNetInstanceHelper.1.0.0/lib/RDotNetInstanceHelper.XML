@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RDotNetInstanceHelper</name>
+    </assembly>
+    <members>
+        <member name="T:RDotNetInstanceHelper.PathHelper">
+            <summary>
+            Path helper class
+            </summary>
+        </member>
+        <member name="M:RDotNetInstanceHelper.PathHelper.GetShortPathName(System.String,System.Text.StringBuilder,System.Int32)">
+            <summary>
+            Get short name
+            </summary>
+            <param name="path"></param>
+            <param name="shortPath"></param>
+            <param name="shortPathLength"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RDotNetInstanceHelper.PathHelper.ToLongPathName(System.String)">
+            <summary> 
+            The ToShortPathNameToLongPathName function retrieves the long path form of a specified short input path 
+            </summary> 
+            <param name="shortName">The short name path</param> 
+            <returns>A long name path string</returns> 
+        </member>
+        <member name="M:RDotNetInstanceHelper.PathHelper.ToShortPathName(System.String)">
+            <summary> 
+            The ToLongPathNameToShortPathName function retrieves the short path form of a specified long input path 
+            </summary> 
+            <param name="longName">The long name path</param> 
+            <returns>A short name path string</returns> 
+        </member>
+        <member name="T:RDotNetInstanceHelper.RDotNetIH">
+            <summary>
+            Instance Helper class
+            </summary>
+        </member>
+        <member name="M:RDotNetInstanceHelper.RDotNetIH.getRHome(System.String,System.Boolean,System.Boolean)">
+            <summary>
+            find R home
+            </summary>
+            <param name="searchhome"></param>
+            <param name="prefer64"></param>
+            <param name="directfolder"></param>
+            <returns>R home, not R.exe path</returns>
+        </member>
+        <member name="M:RDotNetInstanceHelper.RDotNetIH.getRPath(System.Boolean,System.String,System.Boolean,System.Boolean)">
+            <summary>
+            find R path
+            </summary>
+            <param name="needhome"></param>
+            <param name="searchhome"></param>
+            <param name="prefer64"></param>
+            <param name="directfolder"></param>
+            <returns>R path</returns>
+        </member>
+        <member name="M:RDotNetInstanceHelper.RDotNetIH.loadFromRegistry(System.String,System.String,System.String)">
+            <summary>
+            registry load
+            </summary>
+            <param name="keyname"></param>
+            <param name="defaultvalue"></param>
+            <param name="subkey"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RDotNetInstanceHelper.RDotNetIH.IsVersionNum(System.String)">
+            <summary>
+            detect if it is R version number
+            </summary>
+            <param name="s"></param>
+            <returns>boolean</returns>
+        </member>
+    </members>
+</doc>

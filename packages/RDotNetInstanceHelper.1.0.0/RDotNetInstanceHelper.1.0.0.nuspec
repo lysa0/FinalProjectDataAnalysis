@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>RDotNetInstanceHelper</id>
+    <version>1.0.0</version>
+    <title>RDotNetInstanceHelper</title>
+    <authors>SeriousDataEngineer</authors>
+    <owners>SeriousDataEngineer</owners>
+    <licenseUrl>https://raw.githubusercontent.com/SeriousDataEngineer/RDotNetInstanceHelper/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/SeriousDataEngineer/RDotNetInstanceHelper</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is a helper class for RDotNet project</description>
+    <summary>This helper can help you find paths of multiple versions of R, etc.</summary>
+    <releaseNotes>First Release</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>RDotNet</tags>
+  </metadata>
+</package>
